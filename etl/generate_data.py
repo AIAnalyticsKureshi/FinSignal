@@ -461,7 +461,7 @@ def generate_fact_gl_entries():
     cursor2.execute("""
         SELECT date_id, month_number, fiscal_year
         FROM DIM_DATE
-        WHERE is_month_end = 1
+        WHERE day_of_week = 5
         ORDER BY full_date
     """)
     month_end_dates = cursor2.fetchall()

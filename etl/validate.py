@@ -184,10 +184,11 @@ def check_budget_completeness():
 def check_duplicates():
     cursor.execute("""
         SELECT COUNT(*) FROM (
-            SELECT cost_centre_id, account_id, fiscal_period,
-                   scenario_id, COUNT(*) as cnt
-            FROM FACT_GL_ENTRIES
-            GROUP BY cost_centre_id, account_id, fiscal_period, scenario_id
+            SELECT f.cost_centre_id, f.account_id, f.fiscal_period,
+                   f.scenario_id, f.date_id, COUNT(*) as cnt
+            FROM FACT_GL_ENTRIES f
+            GROUP BY f.cost_centre_id, f.account_id, f.fiscal_period,
+                     f.scenario_id, f.date_id
             HAVING COUNT(*) > 1
         )
     """)
