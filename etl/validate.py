@@ -14,7 +14,7 @@ import sqlite3
 import json
 from datetime import datetime
 
-DB_PATH = "finsignal.db"
+from config import DB_PATH, DQ_SCORECARD_PATH
 
 conn = sqlite3.connect(DB_PATH)
 cursor = conn.cursor()
@@ -344,7 +344,7 @@ scorecard = {
     "checks": results
 }
 
-with open("data/processed/dq_scorecard.json", "w") as f:
+with open(DQ_SCORECARD_PATH, "w") as f:
     json.dump(scorecard, f, indent=2)
 
 print(f"\nScorecard saved to: data/processed/dq_scorecard.json")

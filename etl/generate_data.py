@@ -22,10 +22,9 @@ import random
 # If you want to change anything, change it here
 # ============================================================
 
-DB_PATH = "finsignal.db"
-START_DATE = date(2024, 1, 1)
-END_DATE = date(2025, 6, 30)
-RANDOM_SEED = 42
+from config import (DB_PATH, START_DATE, END_DATE, 
+                   RANDOM_SEED, CC_MANUFACTURING, 
+                   CC_SALES, CC_LOGISTICS, CC_RD)
 
 # Set random seed so data is the same every time you run it
 # This is important for reproducibility
