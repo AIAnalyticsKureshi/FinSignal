@@ -1,0 +1,66 @@
+{
+  "run_date": "2026-06-17 13:37:47",
+  "database": "finsignal.db",
+  "total_checks": 8,
+  "passed_checks": 8,
+  "quality_score_pct": 100.0,
+  "status": "PASSED",
+  "checks": [
+    {
+      "check_id": 1,
+      "check_name": "Null Count Check",
+      "description": "No critical columns contain NULL values",
+      "passed": true,
+      "detail": "Total nulls found: 0"
+    },
+    {
+      "check_id": 2,
+      "check_name": "Referential Integrity Check",
+      "description": "All foreign keys point to valid dimension records",
+      "passed": true,
+      "detail": "Orphaned records found: 0"
+    },
+    {
+      "check_id": 3,
+      "check_name": "Period Coverage Check",
+      "description": "All 18 months have both Actual and Budget data",
+      "passed": true,
+      "detail": "Actual periods: 18, Budget periods: 18"
+    },
+    {
+      "check_id": 4,
+      "check_name": "Budget Completeness Check",
+      "description": "All cost centres have budget data assigned",
+      "passed": true,
+      "detail": "6 of 6 cost centres have budget"
+    },
+    {
+      "check_id": 5,
+      "check_name": "Duplicate Key Check",
+      "description": "No duplicate cost centre + account + period combinations",
+      "passed": true,
+      "detail": "Duplicate combinations found: 0"
+    },
+    {
+      "check_id": 6,
+      "check_name": "Revenue Positive Check",
+      "description": "All actual revenue entries are positive values",
+      "passed": true,
+      "detail": "Negative revenue entries found: 0"
+    },
+    {
+      "check_id": 7,
+      "check_name": "Date Range Integrity Check",
+      "description": "All entries fall within Jan 2024 to Jun 2025",
+      "passed": true,
+      "detail": "Out of range entries: 0"
+    },
+    {
+      "check_id": 8,
+      "check_name": "Signal Log Integrity Check",
+      "description": "All signals detected before traditional report date",
+      "passed": true,
+      "detail": "Invalid signals: 0, Wrong order: 0"
+    }
+  ]
+}
