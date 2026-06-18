@@ -1,0 +1,115 @@
+=================================================================
+FINSIGNAL — WEEKLY CONTROLLING ALERT REPORT
+PräzisionWerk GmbH | Stuttgart, Germany
+Report Generated: Thursday, 18 June 2026 — 19:44
+Prepared by: FinSignal Automated Intelligence System
+=================================================================
+
+EXECUTIVE SUMMARY
+-----------------------------------------------------------------
+Total Early Warning Signals Detected:  30
+  Critical (RED):                      20
+  Advisory (AMBER):                    10
+Average Days Before Traditional Report: 25.6 days
+Total Projected Overrun Detected:      €2,840,687.50
+
+Latest Period (2025-06) Financial Summary:
+  Actual Revenue:   €3,458,681.45
+  Budget Revenue:   €3,250,000.00
+  Revenue Variance: €208,681.45
+  Actual EBIT:      €2,068,239.76
+
+=================================================================
+CRITICAL ALERTS — IMMEDIATE ACTION REQUIRED
+=================================================================
+
+🔴 RED ALERT 1: Manufacturing
+   Manager:          Klaus Weber
+   Signal Type:      MATERIAL COST OVERRUN
+   Projected Overrun: €154,000.00
+   Detected:         2025-01-06
+   Days Before Month End: 25 days
+   Early Warning:    33 days before traditional report
+   ACTION REQUIRED:  Review cost centre budget immediately
+
+🔴 RED ALERT 2: Manufacturing
+   Manager:          Klaus Weber
+   Signal Type:      MATERIAL COST OVERRUN
+   Projected Overrun: €154,000.00
+   Detected:         2025-01-13
+   Days Before Month End: 18 days
+   Early Warning:    26 days before traditional report
+   ACTION REQUIRED:  Review cost centre budget immediately
+
+🔴 RED ALERT 3: Manufacturing
+   Manager:          Klaus Weber
+   Signal Type:      MATERIAL COST OVERRUN
+   Projected Overrun: €154,000.00
+   Detected:         2025-01-20
+   Days Before Month End: 11 days
+   Early Warning:    19 days before traditional report
+   ACTION REQUIRED:  Review cost centre budget immediately
+
+🔴 RED ALERT 4: Manufacturing
+   Manager:          Klaus Weber
+   Signal Type:      MATERIAL COST OVERRUN
+   Projected Overrun: €123,200.00
+   Detected:         2025-02-03
+   Days Before Month End: 25 days
+   Early Warning:    33 days before traditional report
+   ACTION REQUIRED:  Review cost centre budget immediately
+
+🔴 RED ALERT 5: Manufacturing
+   Manager:          Klaus Weber
+   Signal Type:      MATERIAL COST OVERRUN
+   Projected Overrun: €123,200.00
+   Detected:         2025-02-10
+   Days Before Month End: 18 days
+   Early Warning:    26 days before traditional report
+   ACTION REQUIRED:  Review cost centre budget immediately
+
+=================================================================
+ADVISORY ALERTS — MONITOR CLOSELY
+=================================================================
+
+🟡 AMBER ALERT 1: Research & Development
+   Manager:          Dr. Anna Schmidt
+   Signal Type:      HOURS UNDERSPEND
+   Projected Impact:  €120,312.50
+   Detected:         2024-05-06
+   Early Warning:    33 days before traditional report
+   ACTION REQUIRED:  Monitor weekly pace and review with manager
+
+🟡 AMBER ALERT 2: Research & Development
+   Manager:          Dr. Anna Schmidt
+   Signal Type:      HOURS UNDERSPEND
+   Projected Impact:  €120,312.50
+   Detected:         2024-05-13
+   Early Warning:    26 days before traditional report
+   ACTION REQUIRED:  Monitor weekly pace and review with manager
+
+🟡 AMBER ALERT 3: Research & Development
+   Manager:          Dr. Anna Schmidt
+   Signal Type:      HOURS UNDERSPEND
+   Projected Impact:  €120,312.50
+   Detected:         2024-05-20
+   Early Warning:    19 days before traditional report
+   ACTION REQUIRED:  Monitor weekly pace and review with manager
+
+=================================================================
+FINSIGNAL SYSTEM PERFORMANCE
+=================================================================
+Traditional Controlling Report Delay:  8 days after month-end
+FinSignal Average Detection:           25.6 days BEFORE month-end
+Total Time Advantage:                  33.6 days earlier than traditional
+Data Quality Score:                    100% (8/8 checks)
+Cost Centres Monitored:                6 departments
+
+This report was generated automatically by FinSignal.
+No manual consolidation required.
+Traditional month-end report would arrive approximately 26 days from now.
+
+=================================================================
+FinSignal — Operational-Financial Early Warning System
+PräzisionWerk GmbH | Developed by Mohammad M. Kureshi
+=================================================================
