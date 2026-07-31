@@ -69,6 +69,33 @@ Proof of the core value proposition — Early Warning Lead Time by Cost Centre, 
 
 ---
 
+## Screenshots
+
+### Page 1 — Executive Pulse
+Headline KPIs for PräzisionWerk GmbH — Revenue YTD €65.14M, EBIT Margin 60.15%, 20 RED signals active. Revenue vs Budget trend, Cost Centre RAG status, and the Signal Early Warning Timeline in one view.
+
+![FinSignal — Executive Pulse](./screenshots/page1-executive-pulse.png)
+
+### Page 2 — Variance Intelligence
+P&L waterfall from Budget to Actual EBIT, monthly cost variance trend with threshold bands, and full account-level variance detail across Revenue, COGS, and OpEx.
+
+![FinSignal — Variance Intelligence](./screenshots/page2-variance-intelligence.png)
+
+### Page 3 — Risk Register
+Cost centre and product line risk in one view. Product Line Profitability table with hidden loss-maker detection, Projected Overrun by Cost Centre, and a full Signal Detail Register — €2.84M in projected overruns traced to source.
+
+![FinSignal — Risk Register](./screenshots/page3-risk-register.png)
+
+### Page 4 — Signal Intelligence
+Proof of the core result — 25.6 days average early warning lead time across 30 signals. Early Warning Lead Time by Cost Centre, Signal Type by Severity, and a Decision Quadrant scatter plot for prioritizing which risks matter most.
+
+![FinSignal — Signal Intelligence](./screenshots/page4-signal-intelligence.png)
+
+### Access the live dashboard
+<img src="./screenshots/qr-code.jpg" alt="QR code linking to Power BI dashboard" width="140" />
+
+---
+
 ## Repository Structure
 
 ```
