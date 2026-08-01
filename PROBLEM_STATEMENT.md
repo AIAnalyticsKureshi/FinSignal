@@ -2,10 +2,10 @@
 
 ## Company Context
 
-**Company:** PräzisionWerk GmbH  
-**Industry:** Precision Manufacturing (Automotive Supply Chain)  
-**Size:** 220 employees, €45M annual revenue  
-**Location:** Stuttgart, Germany  
+**Company:** PräzisionWerk GmbH
+**Industry:** Precision Manufacturing (Automotive Supply Chain)
+**Size:** ~200 employees, €65M annual revenue
+**Location:** Stuttgart, Germany
 **ERP System:** SAP (financial data) + Excel (operational tracking)
 
 ---
@@ -13,9 +13,9 @@
 ## Current Situation
 
 PräzisionWerk GmbH operates six cost centres: Sales, Manufacturing, Logistics,
-R&D, Administration, and Finance. Each department tracks its operational activity
-in separate Excel files. The Finance Controlling team consolidates these files
-manually every month to produce the Management Report.
+R&D, Administration, and Finance & Controlling. Each department tracks its
+operational activity in separate Excel files. The Finance Controlling team
+consolidates these files manually every month to produce the Management Report.
 
 The monthly Controlling report is delivered to the CFO on day 8 after month-end.
 
@@ -30,19 +30,19 @@ month. It cannot detect what is about to happen this month.
 
 Specific pain points:
 
-1. **Late visibility** — A cost overrun in Manufacturing becomes visible on
-   February 8th for January's performance. The overrun happened in week 2 of
-   January. Nobody saw it for 5 weeks.
+1. **Late visibility** — A cost overrun in a given cost centre becomes visible
+   on day 8 of the following month. The overrun itself happened weeks earlier.
+   Nobody saw it develop in real time.
 
 2. **Disconnected data** — Operational data (production orders, material
    consumption, headcount hours) and financial data (budget, actuals) live in
    completely separate files with no automatic link between them.
 
-3. **No early warning** — There is no mechanism to detect that Manufacturing is
-   consuming materials at 140% of the planned pace in week 2 — which will
-   mathematically result in a 40% budget overrun by month-end.
+3. **No early warning** — There is no mechanism to detect that a cost centre is
+   consuming materials or hours at a pace that will mathematically result in
+   a budget overrun by month-end.
 
-4. **Manual consolidation** — The Controller spends 4-5 days every month
+4. **Manual consolidation** — The Controller spends multiple days every month
    copying, cleaning, and merging Excel files before any analysis can begin.
 
 5. **Reactive decisions** — Leadership receives information too late to take
@@ -52,10 +52,11 @@ Specific pain points:
 
 ## The Consequence
 
-In Q1 2025, Manufacturing exceeded its cost budget by €320,000. This overrun
-was visible in the February Controlling report. The signal that this overrun
-was developing was present in operational data as early as January 14th —
-25 days before anyone saw it.
+In Q1 2025, Manufacturing exceeded its cost budget by a projected **€1.32M** —
+the largest single cost centre overrun in the dataset, and the anchor example
+for FinSignal's detection story. The signal that this overrun was developing
+was present in operational data weeks before it would have appeared in the
+traditional month-end report.
 
 ---
 
@@ -86,20 +87,21 @@ financial result be at month-end — and which cost centres need attention now?"
    - Which are trending toward overrun (amber — act now)
    - Which have already breached their threshold (red — escalate)
 
-5. A written Controlling Memo is auto-generated with quantified findings
-   and specific recommended actions for leadership.
+5. The underlying model supports Actual, Budget, and Forecast scenarios
+   (`ACT` / `BUD` / `FOR`), so projected outcomes can be compared directly
+   against both the original budget and a rolling forecast.
 
 ---
 
 ## Success Metrics
 
-| Metric | Target |
-|---|---|
-| Early warning lead time | Minimum 3 weeks before month-end close |
-| Manual consolidation time | Reduced from 5 days to under 4 hours |
-| Data quality score | 100% across 8 automated checks |
-| Cost centres monitored | 6 departments, real-time |
-| Scenarios modelled | 3 (Base / Optimistic / Pessimistic) |
+| Metric | Target | Achieved |
+|---|---|---|
+| Early warning lead time | Minimum 3 weeks before month-end close | **25.6 days average · 37 days maximum** |
+| Data quality score | 100% across 8 automated checks | **100%** ✓ |
+| Cost centres monitored | 6 departments, real-time | **6** ✓ |
+| Manual consolidation time | Reduced from days to hours | Designed to eliminate manual file merging via automated ETL |
+| Projected overruns detected early | — | **€2.84M across 6 cost centres** |
 
 ---
 
@@ -114,4 +116,4 @@ is exactly where FinSignal operates.
 
 ---
 
-*Document version: 1.0 | Author: Mohammad M. Kureshi | Project: FinSignal*
+*Document version: 2.0 | Author: Mohammad M. Kureshi | Project: FinSignal*
